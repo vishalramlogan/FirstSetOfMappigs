@@ -1,0 +1,72 @@
+<link href="styles.scss" rel="stylessheet">
+<body class="full-height-grow">
+  <header class ="home-header">
+    <div class="container">
+      <nav class="home-nav">
+        <ul>
+          <li><a routerLink="/">Return to Homepage</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+  <h1 class ="title">Voice Telephony</h1>
+  <div class="container">  
+      <div class="parent-section">
+        <div class="qos-to-qoe">
+          <div class="choice-title"> 
+            <p> QoS-to-QoE Mapping</p>
+            <div class="call-to-action">
+              <a routerLink="/voiceTelephony" class="butn">Wideband Speech</a>
+              <a routerLink="/videoTelephony" class="butn">Narrowband Speech</a>
+            </div>
+            <p> E-Model</p>
+            <div class="call-to-action">
+              <a routerLink="/voiceTelephony" class="butn">Wideband E-Model</a>
+              <a routerLink="/videoTelephony" class="butn">Narrowband E-Model</a>
+              <a routerLink="/videoTelephony" class="butn">Fullband E-Model</a>
+            </div>
+          </div>
+        </div>
+        <div class="qos-to-qoe-image">
+          <div class="choice-title"> 
+            <div class="call-to-action">
+              <div class ="img-wrapper">
+                <div class="audio-image"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sensitivity-analysis">
+          <div class="choice-title"> 
+            <p> Sensitivity Analysis</p>
+          </div>
+          <div class="parent-sub-section">
+              <div class="higher-resolution">
+                <div class="type">
+                <p> Higher Resolution</p>
+                </div>
+                <div class="call-to-action">
+                  <a routerLink="/voiceTelephony" class="butn">Speech Delay</a>
+                  <a routerLink="/videoTelephony" class="butn">Packet-Loss Rate</a>
+                  <a routerLink="/voiceTelephony" class="butn">Talker Echo Loudness</a>
+                  <a routerLink="/videoTelephony" class="butn">Combination</a>
+                </div>
+              </div>
+              <div class="lower-resolution">
+                <div class="type">
+                  <p> Lower Resolution</p>
+                </div>
+                <div class="call-to-action">
+                  <a routerLink="/voiceTelephony" class="butn">Speech Delay</a>
+                  <a routerLink="/videoTelephony" class="butn">Packet-Loss Rate</a>
+                  <a routerLink="/voiceTelephony" class="butn">Talker Echo Loudness</a>
+                  <a routerLink="/videoTelephony" class="butn">Equipment Factor</a>
+                  <a routerLink="/voiceTelephony" class="butn">Packet-Loss</a>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+

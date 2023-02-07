@@ -1,0 +1,43 @@
+<link href="styles.scss" rel="stylessheet">
+<body class="full-height-grow">
+  <header class ="home-header">
+    <div class="container">
+      <nav class="home-nav">
+        <ul>
+          <li><a (click)="navigateToHomepage()">Return to Homepage</a></li>
+          <li><a (click)="navigateToWebBrowsing()">Web-Browsing</a></li>
+          <li class="right-aligned"><a (click)="navigateToUserProfile()" id="username"><span id="username-value"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <h1 class ="title">2-Page Session QoS-to-QoE Mapping</h1> 
+  <div class="containerc"> 
+    <section class="join-main-section">
+      <form (submit)="calculate($event)" class="join-form">
+        <div class="input-group">
+          <label>Expected Maximum Session Time:</label>
+          <div style="display: inline-flex;">
+            <input type="number" id="expectedSessionTime">
+            <span>s</span>
+          </div>
+          <p class="hint">around 10s to 200s</p>
+        </div>
+        <div class="input-group">
+          <label>Session time</label>
+          <div style="display: inline-flex;">
+            <input type="number" id="sessionTime">
+            <span>s</span>
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="butn">Calculate</button>
+        </div>
+    </form>  
+        <h1 class="join-text">
+          MOS:
+        </h1>
+        <h1 class="join-text" *ngIf="Message">{{Message}}</h1>
+      </section>
+  </div>
+</body>

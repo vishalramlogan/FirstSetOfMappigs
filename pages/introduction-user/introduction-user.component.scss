@@ -1,0 +1,38 @@
+.home-header {
+    height: 25px;
+    background-color: #8EE4AF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.home-nav a{
+    color: #05386B;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.home-nav a:hover{
+    color: #EDF5E1;
+}
+
+.qos-container, .qoe-container, .qos-qoe-mapping-container {
+    margin-bottom: 2rem;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      color: #05386B;
+    }
+}

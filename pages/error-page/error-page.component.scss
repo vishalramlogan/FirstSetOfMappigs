@@ -1,0 +1,24 @@
+.home-header {
+    height: 25px;
+    background-color: #8EE4AF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.home-nav a{
+    color: #05386B;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.home-nav a:hover{
+    color: #EDF5E1;
+}

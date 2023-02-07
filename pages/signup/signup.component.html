@@ -1,0 +1,47 @@
+<link href="styles.scss" rel="stylessheet">
+<body class="full-height-grow">
+  <header class ="home-header">
+    <div class="container">
+      <nav class="home-nav">
+        <ul>
+          <li><a routerLink="/">Return to Homepage</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+  <div class="containerc">  
+    <section class="join-main-section">
+        <div>
+            <h1 class="join-text">
+                Thank you for creating an account
+            </h1> 
+            <p class="type"> You can now retrieve data when needed!</p>
+        </div>  
+        <form (submit)="addUser($event)" class="join-form">
+          <div class="input-group">
+              <label>Username:</label>
+              <input type="string" id="username">
+          </div>     
+          <div class="input-group">
+            <label>Password:</label>
+            <input type="password" id="password">
+        </div> 
+        <div class="input-group">
+            <label>Password Confirmation:</label>
+            <input type="password" id="passwordConfirmation">
+        </div> 
+        <div class="input-group">
+          <label>Security Question:</label>
+          <input type="string" id="securityQuestion">
+        </div> 
+        <div class="input-group">
+          <label>Security Question Answer:</label>
+          <input type="string" id="securityQuestionAnswer">
+        </div> 
+          <div>
+            <button type="submit" class="butn">Submit</button>
+          </div>
+      </form>  
+    </section>
+  </div>
+</body>

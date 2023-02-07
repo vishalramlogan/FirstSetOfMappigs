@@ -1,0 +1,42 @@
+<link href="styles.scss" rel="stylessheet">
+<body class="full-height-grow">
+  <header class ="home-header">
+    <div class="container">
+      <nav class="home-nav">
+        <ul>
+          <li><a (click)="login()">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <h1 class ="title">QoS-to-QoE Mapping Tool</h1> 
+    <div class="containerh">
+      <section class="home-main-section">
+        <div class="call-to-action"> 
+          <div class="intro-section">
+            <a routerLink="/introduction">Learn more on QoS and QoE</a>
+          </div>
+        </div>
+        <div class ="img-wrapper">
+          <div class="tower-image"></div>
+        </div>
+        <div class="call-to-action">
+          <h1 class ="title">Get Interactive with QoS and QoE</h1>
+          <span class="subtitle">Perform QoS-to-QoE Mapping or a Sensitivity Analysis</span>
+          <a (click)="pleaseLogin()" class="btn">Voice Telephony</a>
+          <a (click)="pleaseLogin()" class="btn">Video Telephony</a>
+          <a (click)="pleaseLogin()" class="btn">Web-Browsing</a>
+          <a (click)="pleaseLogin()" class="btn">Audio Streaming</a>
+          <a (click)="pleaseLogin()" class="btn">Video Streaming</a>
+          <a (click)="pleaseLogin()" class="btn">Gaming</a>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <p class="subtitledisclamier">
+        The information and models provided on this website are for informational purposes only. We do not guarantee the 
+        accuracy or reliability of the information and models and will not be held responsible for any errors or omissions or 
+        any results obtained from their use. Use of the information and models is at your own risk.
+      </p>
+    </div>
+</body>

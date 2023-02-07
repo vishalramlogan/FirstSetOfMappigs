@@ -1,0 +1,39 @@
+.home-header {
+    height: 25px;
+    background-color: #8EE4AF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.home-nav a{
+    color: #05386B;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.home-nav a:hover{
+    color: #EDF5E1;
+}
+
+.containerc{
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.join-form {
+    background-color: #8EE4AF;
+    //width: 50vw;
+    //max-width: 100%;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+  }

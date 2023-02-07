@@ -1,0 +1,37 @@
+<link href="styles.scss" rel="stylessheet">
+<body class="full-height-grow">
+  <header class ="home-header">
+    <div class="container">
+      <nav class="home-nav">
+        <ul>
+          <li><a routerLink="/">Return to Homepage</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+  <div class="containerc"> 
+    <section class="join-main-section">
+        <h1 class="join-text">
+          Welcome
+        </h1>
+        <form (submit)="login($event)" class="join-form">
+          <div class="input-group">
+            <label>Username:</label>
+            <input type="text" id="username">
+          </div>
+          <div class="input-group">
+            <label>Password:</label>
+            <input type="password" id="password">
+          </div>
+          <div class="forgotpassword">
+            <a routerLink="/users">Forgot Password?</a>
+          </div>
+          <div class="input-group">
+            <button type="submit" class="butn">Login</button>
+          </div>
+          <p class="othertext">Need an account?</p>
+          <a routerLink="/signup" class="btn">Sign up</a>
+        </form>
+      </section>
+  </div>
+</body>

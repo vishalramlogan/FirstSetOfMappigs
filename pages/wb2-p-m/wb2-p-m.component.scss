@@ -1,0 +1,154 @@
+.home-header {
+    height: 25px;
+    background-color: #8EE4AF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.right-aligned {
+  margin-left: auto;
+}
+
+.home-nav a{
+    color: #05386B;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.home-nav a:hover{
+    color: #EDF5E1;
+}
+
+.join-main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .join-text {
+    font-size: 3.5em;
+    margin: 0;
+  }
+    
+  .join-form {
+    background-color: #8EE4AF;
+    width: 60vw;
+    max-width: 50%;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+  }
+
+  .input-groupb {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  
+  .input-group:last-child {
+    margin-bottom: 0;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+    color: #05386B;
+  }
+  
+  .input-group input {
+    outline: none;
+    background: #EDF5E1;
+    border-color: #EDF5E1;
+    font-size: 1em;
+    padding: .5em;
+    color: #05386B;
+    border-radius: 10px;
+  }
+
+  .input-group span {
+    align-self: center;
+    padding-left: 5px;
+    color: #05386B;
+    font-size: 1.5em;
+  }
+  
+  .input-group input:focus {
+    border-color: #05386B;
+  }
+
+  .hint {
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 0rem;
+    text-align: left;
+    color: #ED1414;
+}
+
+  @media (max-width: 900px) {
+    .join-main-section {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .join-form {
+      width: 80vw;
+      max-width: inherit;
+      margin: 2rem 0;
+    }
+  }
+
+  .containerc{
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 40px;
+    align-items: center;
+}
+
+
+.butn{
+    color: #FFFFFF;
+    background-color: #05386B;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    //margin-bottom: 1rem;
+    text-align: center;
+}
+
+.butn:hover {
+    background-color: #226080;
+}
+
+.butu a{
+    color: #FFFFFF;
+    background-color: #05386B;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+}
+
+.butu:hover {
+    background-color: #226080;
+}

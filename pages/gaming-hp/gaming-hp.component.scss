@@ -1,0 +1,125 @@
+.img-wrapper {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.audio-image {
+    background-image: url('../../../assets/Gamin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.home-header {
+    height: 25px;
+    background-color: #8EE4AF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.home-nav a{
+    color: #05386B;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.home-nav a:hover{
+    color: #EDF5E1;
+}
+
+.choice-title{
+    font-weight: 500;
+    font-size: 2.75em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    text-align: center;
+    color: #05386B;
+}
+
+.type{
+    font-weight: 500;
+    font-size: 1.75em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    text-align: center;
+    color: #05386B;
+}
+
+.butn{
+    color: #FFFFFF;
+    background-color: #05386B;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+.butn:hover {
+    background-color: #226080;
+}
+
+.parent-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    align-self: center;
+}
+
+.sensitivity-analysis {
+    flex-basis: 50%;
+    width: 50%;
+}
+
+.qos-to-qoe{
+    flex-basis: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent-sub-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.higher-resolution, .lower-resolution {
+    flex-basis: 50%;
+}
+
+
+
