@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #5CDB95;
+    font-family: Oswald, sans-serif;
+    color: #EDF5E1;
+    min-height: 100vh;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.btn{
+    color: #FFFFFF;
+    background-color: #05386B;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #226080;
+}
+  
+.home-main-section .tower-image {
+    background-image: url(../assets/antenna.png);
+    flex-grow: 1;
+    max-height: 100vw;
+    min-width: 50vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    bottom: 0;
+}
